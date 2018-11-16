@@ -35,3 +35,6 @@ footer{
     text-decoration: none;
     display: inline-block;
 }
+.foot_second a:hover{
+    background: #bf3f32;
+}
