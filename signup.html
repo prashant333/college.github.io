@@ -73,6 +73,10 @@
             color: #004068;
             
         }
+        .dropitem{
+            color: black;
+            background: rgb(69, 114, 238);
+        }
     </style>
 </head>
 <body>
@@ -90,9 +94,9 @@
         <input class="rightitem" type="email" name="email" required> <br>
         <label class="leftitem" for="usertype">User Type</label>
         <select class="rightitem" name="usertype" id="utype">
-            <option value="Parent">Faculty</option>
-            <option value="Faculty">Parent</option>
-            <option value="Student">Student</option>
+            <option class="dropitem" value="Parent">Faculty</option>
+            <option class="dropitem" value="Faculty">Parent</option>
+            <option class="dropitem" value="Student">Student</option>
         </select> <br>  
         <label class="leftitem" for="password" >Password</label>
         <input class="rightitem" type="password" name="password" required>
