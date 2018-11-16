@@ -7,14 +7,14 @@
     padding: 50px 0px;
 }
 .courseleft{
-    flex: 40%;
+    flex: 30%;
     background: #bed5e4;
     margin: 10px;
     border-radius: 10px;
     box-shadow:10px 5px 16px black;
 }
 .courseright{
-    flex: 40%;
+    flex: 30%;
     background: #bed5e4;
     margin: 10px;
     border-radius: 10px;
@@ -22,10 +22,13 @@
 }
 .courseh2-heading{
     padding: 20px 10px;
-    margin-left: 30%;
+    margin-left: 10%;
 }
 #courseh2{
-    margin-left: 33%;
+    margin-left: 20%;
+}
+#course1h2{
+    margin-left: 20%;
 }
 .courseh3-heading{
     margin-left: 48%;
