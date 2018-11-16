@@ -1,0 +1,37 @@
+footer{
+    background: rgb(38, 49, 61);
+    padding: 20px 10px;
+    margin-top: 20px;
+    height: 290px;
+}
+.footerimg h2, .foot_second h2{
+    color: goldenrod;
+    padding:10px; 
+}
+.footerimg{
+    float: left;
+    width: 350px;
+}
+.flink{
+    text-decoration: none;
+    float: right;
+    width: 100px;
+}
+.foot_second{
+    float: right;
+     width: 750px;
+}
+.foot_second p{
+    padding: 10px;
+    text-align: justify;
+    line-height: 25px;
+    color: whitesmoke;
+}
+.foot_second a{
+    background-color: goldenrod;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
