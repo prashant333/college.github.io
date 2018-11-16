@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>signUp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="image/logo.png">
+    <style>
+        body{
+            margin: 0px;
+            padding: 0;
+            font-family: sans-serif,Arial, Helvetica, sans-serif;
+            background: rgb(102, 101, 101);
+        }
+        .box{
+            display: block;
+            background: rgb(143, 145, 148);
+            width: 400px;
+            padding: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            border-radius: 10px;
+            box-shadow: 7px 7px 20px rgb(56, 56, 56);
+        }
+        img{
+            padding: 10px 20px; 
+        }
+        h1{
+            position: absolute;
+            top: 20px;
+            left: 170px;
+            font-weight: lighter;
+        }
+        .leftitem{
+            display: inline-block;
+            width: 100px;
+            padding: 25px 20px;
+        }
+        .rightitem{
+            display: inline-block;
+            color: whitesmoke;
+            width: 200px;
+            height: 30px;
+            background: none;
+            border: 2px solid goldenrod;
+            border-radius: 5px;
+        }
+        .box input[type="button"]{
+            display: block; 
+            margin: auto;
+            padding: 10px 20px;
+            background: none;
+            border: 2px solid goldenrod;
+            border-radius: 10px;
+        }
+        .box input[type="button"]:hover{
+            color: red;
+            width: 100px;
+            cursor: pointer;
+            background: goldenrod;
+            
+        }
+        #bottomlink{
+            text-decoration: none;
+            
+            font-size: 14px;
+        }
+        #bottomlink:hover{
+            font-size: 16px;
+            color: #004068;
+            
+        }
+    </style>
+</head>
+<body>
+    <form class="box" action="#">
+        <div id="top">
+        <a href="index.html"><img src="image/logo.png" alt="college logo" width="50px" height="70px"></a>
+       <h1>SignUp</h1>
+    </div>
+    
+        <label class="leftitem" for="firstname">First Name</label>
+        <input class="rightitem" type="text" name="firstname" required> <br>
+        <label class="leftitem" for="lastname">Last Name</label>
+        <input class="rightitem" type="text" name="lastname"> <br>
+        <label class="leftitem" for="email">Email</label>
+        <input class="rightitem" type="email" name="email" required> <br>
+        <label class="leftitem" for="usertype">User Type</label>
+        <select class="rightitem" name="usertype" id="utype">
+            <option value="Parent">Faculty</option>
+            <option value="Faculty">Parent</option>
+            <option value="Student">Student</option>
+        </select> <br>  
+        <label class="leftitem" for="password" >Password</label>
+        <input class="rightitem" type="password" name="password" required>
+        <input type="button" name="submit" value="SignUp">
+        <a id="bottomlink" href="login.html">Already a user</a>
+    </form>
+    
+</body>
+</html>
