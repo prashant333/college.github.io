@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" media="screen" href="event.css">
+    <link rel="stylesheet" media="screen" href="admission.css">    
     <link rel="stylesheet" media="screen" href="footer.css">
     <link rel="stylesheet" media="screen" href="head.css">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
@@ -47,27 +47,28 @@
     </header>
     
         <img src="image/college1.jpg" alt="college image" height="450px" width="100%">
-        <div>
-            <div id="event-fest">
-                
-                <marquee> College cultural fest will be starting from september.</marquee>
-            </div>
-            <div class="event-cloud">
-                <i class="fa fa-skyatlas"></i>
-                <p>A Technical Seminar has been organized by the CSE and ISE department.
-                    Intrested students are supposed to meet the CSE or ISE department for 
-                    any further clarification. <br>
-                    <strong style="color:green;">NOTE:</strong><i style="color:green;">students can present their paper or presentstion after consulting the authorities.</i>
-                </p>
-            </div>
-            <div class="event-football">
-                <i class="fa fa-soccer-ball-o"></i>
-                <p>Upcoming sports events will be conducted before the cultural fest.
-                    It is hereby informed to all the branch captions to meet the sports
-                    co-ordinator and discuss the details.
-                </p>
-            </div>
-        </div>
+        <form action="">
+            <label for="name">Name</label><input type="text" name="user-name" required> <br>
+            <label for="name">Father Name</label><input type="text" name="father-name"> <br>
+            <label for="name">Mother Name</label><input type="text" name="mother-name"> <br>
+            <label for="email">Email</label><input type="email" name="user-email" required> <br>
+            <label for="Phone">Phone Number</label><input type="tel" name="user-tel" required> <br>
+            <label for="Phone">Parent Phone Number</label><input type="tel" name="user-parent-tel" required> <br>
+            <label for="gender">Gender</label>
+            <input type="radio" id="client_type" name="radio" value="male">Male
+            <input type="radio" id="client_type" name="radio" value="female">female <br>
+            <label for="degree">Highest degree</label> <select name="degree" id="hdegree" required>
+                <option value="10">10th</option>
+                <option value="2nd PUC">2nd PUC</option>
+                <option value="diploma">Diploma</option>
+            </select> <br>
+            <label for="apply-for">Apply For</label> <select name="apply-for" id="apply-for" required>
+                <option value="Graduation">Graduation</option>
+                <option value="Post-Graduation">Post-Graduation</option>
+                <option value="MBA">MBA</option>
+            </select> <br>
+            <input type="button" value="Submit">
+        </form>
         <footer>
             <div class="footerimg">
                 <h2>Gallery</h2>
@@ -97,6 +98,6 @@
                    <p style="color:red; margin-top: 10px;"> &copy;Copyright 2018 All rights reserved. <img src="image/logo.png" alt="college logo" width="20px" height="20px"></p>
                 </div>
                 
-        </footer>
+        </footer>    
 </body>
-</html>        
+</html>

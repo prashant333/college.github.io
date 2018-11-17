@@ -1,0 +1,40 @@
+form{
+    width: 50%;
+    padding: 10px;
+    margin: 20px 25%;
+    background: whitesmoke;
+}
+form:hover{
+    box-shadow: 5px 10px 20px rgb(133, 131, 131);
+}
+form label{
+    display: inline-block;
+    width: 200px;
+    padding: 20px 10px;
+}
+input[type="text"]{
+    height: 20px;
+    width: 300px;
+}
+input[type="email"]{
+    width: 300px;
+    height: 20px;
+}
+input[type="tel"]{
+    width: 150px;
+    height: 20px;
+}
+input[type="button"]{
+    display: block;
+    margin: auto;
+    background: none;
+    padding: 10px;
+    border: 2px solid goldenrod;
+    transition: padding .3s;
+}
+input[type="button"]:hover{
+    padding: 10px 20px;
+    background: goldenrod;
+    color:#004068;
+    box-shadow: 5px 5px 15px rgb(133, 131, 131);
+}
