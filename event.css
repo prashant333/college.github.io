@@ -1,0 +1,46 @@
+#event-fest{
+    height: 50px;
+    padding: 10px;
+}
+marquee{
+    color: red;
+    font-size: 20px;
+}
+.event-cloud,.event-football{
+    height: 300px;
+    
+    margin: 0px 10%;
+} 
+.event-cloud>i{
+    padding: 75px 100px;
+    font-size: 150px;
+    background: #004068;
+    color: goldenrod;
+    float: left;
+    border-radius:10px;
+    
+}
+.event-football>i{
+    padding: 75px 100px;
+    font-size: 150px;
+    color: goldenrod;
+    background: #004068;
+    float: right;
+    border-radius: 10px;
+}
+.event-cloud p{
+    line-height: 30px;
+    padding: 50px;
+    float: left;
+    width: 500px;
+    
+}
+.event-football p{
+    line-height: 30px;
+    padding: 50px;
+    width: 500px;
+    margin-left: 50px;
+}
+
+
+
