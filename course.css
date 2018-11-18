@@ -52,6 +52,9 @@
     margin-top: 10px;
 
 }
+#paper{
+    height: 10px;
+}
 #paper i{
     font-size: 30px;
     color: goldenrod;
@@ -60,11 +63,11 @@
     border-radius: 5px;
     box-shadow: 10px 10px 16px black;
     position: relative;
-    top: 100px;
+    top: 50px;
 }
 .course-para{
     margin-left: 100px;
-    line-height: 25px;
+    line-height: 30px;
     padding-top: 20px;
     text-align: justify;
 }
