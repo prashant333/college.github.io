@@ -24,7 +24,7 @@ input[type="tel"]{
     width: 150px;
     height: 20px;
 }
-input[type="button"]{
+input[type="submit"]{
     display: block;
     margin: auto;
     background: none;
@@ -32,7 +32,7 @@ input[type="button"]{
     border: 2px solid goldenrod;
     transition: padding .3s;
 }
-input[type="button"]:hover{
+input[type="submit"]:hover{
     padding: 10px 20px;
     background: goldenrod;
     color:#004068;

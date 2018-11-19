@@ -47,27 +47,28 @@
     </header>
     
         <img src="image/college1.jpg" alt="college image" height="450px" width="100%">
-        <form action="">
-            <label for="name">Name</label><input type="text" name="user-name" required> <br>
-            <label for="name">Father Name</label><input type="text" name="father-name"> <br>
-            <label for="name">Mother Name</label><input type="text" name="mother-name"> <br>
-            <label for="email">Email</label><input type="email" name="user-email" required> <br>
-            <label for="Phone">Phone Number</label><input type="tel" name="user-tel" required> <br>
-            <label for="Phone">Parent Phone Number</label><input type="tel" name="user-parent-tel" required> <br>
-            <label for="gender">Gender</label>
-            <input type="radio" id="client_type" name="radio" value="male">Male
-            <input type="radio" id="client_type" name="radio" value="female">female <br>
-            <label for="degree">Highest degree</label> <select name="degree" id="hdegree" required>
+        <form action="func.php" method="POST">
+            <label for="name">Name</label><input type="text" name="name" required> <br>
+            <label for="name">Father Name</label><input type="text" name="fname"> <br>
+            <label for="name">Mother Name</label><input type="text" name="mname"> <br>
+            <label for="email">Email</label><input type="email" name="email" required> <br>
+            <label for="Phone">Phone Number</label><input type="tel" name="phone" required> <br>
+            <label for="Phone">Parent Phone Number</label><input type="tel" name="pphone" required> <br>
+            <label for="gender">Gender</label> <select name="gender" id="gender" required>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select> <br>
+            <label for="degree">Highest degree</label> <select name="hdegree" id="hdegree" required>
                 <option value="10">10th</option>
                 <option value="2nd PUC">2nd PUC</option>
                 <option value="diploma">Diploma</option>
             </select> <br>
-            <label for="apply-for">Apply For</label> <select name="apply-for" id="apply-for" required>
+            <label for="apply-for">Apply For</label> <select name="applyfor" id="apply-for" required>
                 <option value="Graduation">Graduation</option>
                 <option value="Post-Graduation">Post-Graduation</option>
                 <option value="MBA">MBA</option>
             </select> <br>
-            <input type="button" value="Submit">
+            <input type="submit" value="Submit" name="login">
         </form>
         <footer>
             <div class="footerimg">
