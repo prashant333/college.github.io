@@ -14,14 +14,14 @@ const navSlide =() =>{
         if(link.style.animation){
             link.style.animation=''
         }else{
-            link.style.animation = `animateLink 0.5s ease-in forwards ${index/7 +0.2}s`
+            link.style.animation = `animateLink 0.5s cubic-bezier(.68,-0.55,.27,1.55) forwards ${index/7 +0.2}s`
         }
     })
     moreLink.forEach((link,index)=>{
         if(link.style.animation){
             link.style.animation=''
         }else{
-            link.style.animation = `animateLink 0.5s  forwards ${index/7 +0.8}s`
+            link.style.animation = `animateLink 0.5s cubic-bezier(.68,-0.55,.27,1.55)  forwards ${index/7 +0.8}s`
         }
     })
 
