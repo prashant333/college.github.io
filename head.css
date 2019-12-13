@@ -130,8 +130,8 @@ header img{
         justify-content: space-around;
         align-items: center;
         flex-direction: column;
-        background-color: #f3f3f3;
-        border-radius: 10px;
+        background-color: #004068;
+        border-radius: 5px;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
     }
