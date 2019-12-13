@@ -39,9 +39,7 @@ header img{
     background-color: #004068;
     overflow: hidden;
 }
-#align{
-    margin-left: 200px;
-}
+
 .navbar a {
     float: left;
     font-size: 14px;
@@ -96,4 +94,75 @@ header img{
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+.burger{
+    cursor: pointer;
+    padding: 7px;
+    display: none;
+}
+.burger div{
+    background-color:red;
+    width: 25px;
+    height: 2px;
+    margin: 5px;
+    transition: all 0.3s ease-in;
+}
+
+@media screen and (max-width:500px){
+    body{
+        overflow-x: hidden;
+    }
+    .align{
+        position: absolute;
+        width: 50%;
+        right: 0px;
+        top: 76px;
+        height: 400px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        background-color: #f3f3f3;
+        border-radius: 10px;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .align a{
+        opacity: 0;
+    }
+    .dropbtn{
+        opacity: 0;
+    }
+    .burger{
+        display: block;
+        position: relative;
+        top: 0px;
+        left: 150px;
+    }
+}
+.nav-active{ 
+    transform: translateX(0%);
+}
+
+@keyframes animateLink{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,5px);
+}
+
+.toggle .line2{
+    opacity: 0;
+}
+
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-5px);
 }
