@@ -31,7 +31,7 @@ header img{
     position: absolute;
     top: 0px;
     left: 50px;
-    transition: cubic-bezier(.68,-0.55,.27,1.55) 0.5s;
+    transition: cubic-bezier(.68,-0.55,.27,1.55) 1.2s;
 }
 .navbar{
     display: flex;
