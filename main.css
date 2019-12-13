@@ -36,7 +36,8 @@
   box-shadow: 5px 5px 17px rgb(39, 39, 138,0.6);
 }
 .main-flex a:hover{
-    background: #062f4f;
+    background: #062f4f;    
+    transition: cubic-bezier(.68,-0.55,.27,1.55) 0.5s;
 }
 .main-flex p{
     width: 80%;
