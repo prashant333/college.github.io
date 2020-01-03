@@ -41,6 +41,12 @@ header img{
     overflow: hidden;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
 .navbar a {
     float: left;
     font-size: 14px;
@@ -174,3 +180,9 @@ header img{
 .toggle .line3{
     transform: rotate(45deg) translate(-5px,-5px);
 }
+
+/* @media screen and (max-width:500px){
+    .align{
+        width: 30%;
+    }
+} */
