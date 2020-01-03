@@ -1,8 +1,9 @@
 footer{
+    display: flex;
     background: rgb(38, 49, 61);
     padding: 20px 10px;
     margin-top: 20px;
-    height: 290px;
+    /* height: 17em; */
 }
 .footerimg h2, .foot_second h2{
     color: goldenrod;
@@ -10,8 +11,13 @@ footer{
 }
 .footerimg{
     float: left;
-    width: 350px;
+    width: 30%;
 }
+
+.footerimg img{
+    width: 100px;
+    height: 100px;
+} 
 .flink{
     text-decoration: none;
     float: right;
@@ -19,7 +25,8 @@ footer{
 }
 .foot_second{
     float: right;
-     width: 750px;
+     width: 70%;
+     font-size: 1em;
 }
 .foot_second p{
     padding: 10px;
@@ -37,4 +44,13 @@ footer{
 }
 .foot_second a:hover{
     background: #bf3f32;
+}
+@media screen and (max-width:400px){
+    .footerimg img{
+        width: 50px;
+        height: 50px;
+    }
+    .foot_second{
+         font-size: 0.65em;
+    }
 }
