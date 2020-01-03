@@ -13,16 +13,22 @@ form label{
     padding: 20px 10px;
 }
 input[type="text"]{
-    height: 20px;
+    height: 25px;
     width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 input[type="email"]{
     width: 300px;
-    height: 20px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 input[type="tel"]{
     width: 150px;
-    height: 20px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 input[type="submit"]{
     display: block;
@@ -37,4 +43,8 @@ input[type="submit"]:hover{
     background: goldenrod;
     color:#004068;
     box-shadow: 5px 5px 15px rgb(133, 131, 131);
+}
+
+.invalid{
+    border-color: red;
 }
