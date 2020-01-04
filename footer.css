@@ -45,7 +45,7 @@ footer{
 .foot_second a:hover{
     background: #bf3f32;
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:500px){
     .footerimg img{
         width: 50px;
         height: 50px;
