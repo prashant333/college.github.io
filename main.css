@@ -15,6 +15,50 @@
     border-radius: 5px;
 }
 
+#parallax-img{
+    /* height: 400px; */
+    margin: 3em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.parallax-img-1{
+    background: url(image/parallax1.jpg);
+    height: 375px;
+    display: inline-block;
+    width: 60%;
+    /* margin-left:3em ; */
+    background-attachment: fixed;
+    /* background-position: center; */
+    background-size: cover;
+
+}
+.parallax-content{
+    width: 30%;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    line-height: 2em;
+    text-align: justify;
+    word-spacing: 10px;
+    color: black;
+}
+
+.parallax-img-2{
+    background: url(image/brown-book-page.jpg);
+    height: 375px;
+    display: inline-block;
+    width: 60%;
+    background-attachment: fixed;
+    /* background-position: center; */
+    background-size: cover;
+
+}
+
 .main-flex{
     display: flex;
     flex-wrap: wrap;
