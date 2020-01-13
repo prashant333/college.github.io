@@ -61,3 +61,13 @@ window.addEventListener('scroll', function() {
     let offset = window.pageYOffset;
     parallax.style.backgroundPositionY = offset *0.7 +'px';
 })
+
+let parallax1 = document.getElementById('parallax-pic');
+// console.log(parallax1[1])
+window.addEventListener('scroll', function(){
+    let offset = window.pageYOffset;
+    
+        parallax1.style.backgroundPositionY = offset *0.08+'px';
+        
+    
+})
