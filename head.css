@@ -33,6 +33,14 @@ header img{
     left: 50px;
     transition: cubic-bezier(.68,-0.55,.27,1.55) 1.2s;
 }
+.parallax{
+    background: url(image/college1.jpg);
+    height: 450px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
 .navbar{
     display: flex;
     justify-content: space-around;
