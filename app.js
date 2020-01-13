@@ -55,3 +55,9 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
+let parallax = document.getElementById('para');
+window.addEventListener('scroll', function() {
+    let offset = window.pageYOffset;
+    parallax.style.backgroundPositionY = offset *0.7 +'px';
+})
